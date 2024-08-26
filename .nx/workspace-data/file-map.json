@@ -1,0 +1,143 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.2",
+  "deps": {
+    "lerna": "^8.1.8"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1921754567074770008"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "940990619495828314"
+      },
+      {
+        "file": "package.json",
+        "hash": "14565069565890919208"
+      }
+    ],
+    "projectFileMap": {
+      "ft-ui-base": [
+        {
+          "file": "packages/base/README.md",
+          "hash": "9207405882699575565"
+        },
+        {
+          "file": "packages/base/__tests__/base.test.js",
+          "hash": "1579419972801061166"
+        },
+        {
+          "file": "packages/base/index.ts",
+          "hash": "13978629220579752112"
+        },
+        {
+          "file": "packages/base/package.json",
+          "hash": "6466446876989917863",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "packages/base/src/base.tsx",
+          "hash": "16809359796566220968"
+        }
+      ],
+      "react-project": [
+        {
+          "file": "packages/react-project/README.md",
+          "hash": "12774895851522313470"
+        },
+        {
+          "file": "packages/react-project/__tests__/react-project.test.js",
+          "hash": "8951694545686550435"
+        },
+        {
+          "file": "packages/react-project/babel.config.json",
+          "hash": "17472732275644955753"
+        },
+        {
+          "file": "packages/react-project/dist/bundle.js",
+          "hash": "17840995722230138204"
+        },
+        {
+          "file": "packages/react-project/dist/bundle.js.LICENSE.txt",
+          "hash": "2421531410713746976"
+        },
+        {
+          "file": "packages/react-project/dist/index.html",
+          "hash": "11688389840077390465"
+        },
+        {
+          "file": "packages/react-project/package.json",
+          "hash": "9502392252113709394",
+          "deps": [
+            "npm:@babel/core",
+            "npm:@babel/preset-env",
+            "npm:@babel/preset-react",
+            "npm:@babel/preset-typescript",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:babel-loader",
+            "npm:css-loader",
+            "npm:html-webpack-plugin",
+            "npm:style-loader",
+            "npm:webpack",
+            "npm:webpack-cli",
+            "npm:webpack-dev-server",
+            "ft-ui-base",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "packages/react-project/public/index.html",
+          "hash": "2620667538312561398"
+        },
+        {
+          "file": "packages/react-project/src/App.tsx",
+          "hash": "14188342388112840776"
+        },
+        {
+          "file": "packages/react-project/src/index.tsx",
+          "hash": "1120197840297250824"
+        },
+        {
+          "file": "packages/react-project/tsconfig.json",
+          "hash": "2720778729257096578"
+        },
+        {
+          "file": "packages/react-project/webpack.config.js",
+          "hash": "17500404209718440301"
+        }
+      ],
+      "html-project": [
+        {
+          "file": "packages/html-project/README.md",
+          "hash": "6458586285913805986"
+        },
+        {
+          "file": "packages/html-project/__tests__/html-project.test.js",
+          "hash": "13831921467390881552"
+        },
+        {
+          "file": "packages/html-project/package.json",
+          "hash": "14307868206212810093"
+        }
+      ]
+    }
+  }
+}

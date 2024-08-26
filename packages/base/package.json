@@ -1,0 +1,29 @@
+{
+  "name": "ft-ui-base",
+  "version": "0.0.0",
+  "description": "Repository of the base ui components",
+  "keywords": [
+    "Base",
+    "ui",
+    "components"
+  ],
+  "author": "Igor Duspara <igor.duspara@finanztip.de>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "",
+    "test": "node ./__tests__/base.test.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
