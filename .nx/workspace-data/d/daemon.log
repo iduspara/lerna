@@ -139,3 +139,20 @@
 [NX Daemon Server] - 2024-08-26T11:19:55.104Z - Done responding to the client handleContextFileData
 [NX Daemon Server] - 2024-08-26T11:19:55.104Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
 [NX Daemon Server] - 2024-08-26T11:19:56.774Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-08-26T11:20:17.227Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-08-26T11:20:17.230Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-08-26T11:20:17.230Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-08-26T11:20:17.231Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-08-26T11:20:17.232Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-08-26T11:20:17.234Z - Time taken for 'total for creating and serializing project graph' 0.4740419387817383ms
+[NX Daemon Server] - 2024-08-26T11:20:17.235Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-08-26T11:20:17.235Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2024-08-26T11:20:17.238Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-08-26T11:20:17.238Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-08-26T11:20:17.238Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-08-26T11:20:18.912Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-08-26T11:21:23.691Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-08-26T11:21:23.691Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-08-26T11:21:23.692Z - [WATCHER]: Stopping the watcher for /Users/igor.duspara/workspace/lerna (sources)
+[NX Daemon Server] - 2024-08-26T11:21:23.692Z - [WATCHER]: Stopping the watcher for /Users/igor.duspara/workspace/lerna (outputs)
+[NX Daemon Server] - 2024-08-26T11:21:23.692Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
