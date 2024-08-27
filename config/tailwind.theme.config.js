@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./packages/**/*.{js,ts,jsx,tsx}"],
-   theme: {
+export default {
+  theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
       "inter-bold": ["Inter-Bold", "sans-serif"],
@@ -42,7 +41,6 @@ module.exports = {
         40: "165px",
       },
     },
-  },
-  plugins: [],
+  }
 }
 

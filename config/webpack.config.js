@@ -50,7 +50,10 @@ let config = {
             options: {
               implementation: require.resolve("postcss"),
               postcssOptions: {
-                plugins: [require("tailwindcss"), require("autoprefixer")],
+                plugins: [
+                  require("tailwindcss"),
+                  require("autoprefixer"),
+                ],
               },
             },
           },

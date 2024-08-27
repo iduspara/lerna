@@ -19,8 +19,8 @@
     "src"
   ],
   "scripts": {
-    "start": "webpack serve --mode development --open --config ../../webpack.config.js",
-    "build": "webpack --mode production --config ../../webpack.config.js",
+    "start": "webpack serve --mode development --open --config ../../config/webpack.config.js",
+    "build": "webpack --mode production --config ../../config/webpack.config.js",
     "test": "node ./__tests__/base.test.js"
   },
   "devDependencies": {

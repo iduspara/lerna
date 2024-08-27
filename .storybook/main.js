@@ -44,7 +44,7 @@ const config = {
                   implementation: require.resolve("postcss"),
                   postcssOptions: {
                     plugins: [
-                      require("tailwindcss"),
+                      require("tailwindcss")('./config/tailwind.config.js'),
                       require("autoprefixer"),
                     ],
                   },

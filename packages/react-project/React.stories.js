@@ -1,7 +1,7 @@
 import App from './src/App';
 
 export default {
-  title: 'Website/Academy',
+  title: 'Website/React-App',
   component: App,
 };
 

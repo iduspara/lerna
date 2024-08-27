@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <h1 className='bg-primary p-4'>Website - Academy App</h1>
+      <h1 className='bg-primary p-4'>Website - React App</h1>
     </div>
   );
 };
