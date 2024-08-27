@@ -1,6 +1,6 @@
 {
   "name": "react-project",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "> TODO: description",
   "author": "Igor Duspara <igor.duspara@finanztip.de>",
   "homepage": "",
@@ -37,7 +37,7 @@
     "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
-    "ft-ui-base": "^0.0.3",
+    "ft-ui-base": "^0.0.4",
     "postcss-loader": "^8.1.1",
     "postcss-preset-env": "^10.0.2",
     "react": "^18.3.1",
