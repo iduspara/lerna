@@ -1,1 +1,1 @@
-export { default as Header } from "./src/base";
+export { default as Header } from "./src/header";

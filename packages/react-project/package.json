@@ -16,7 +16,7 @@
   "scripts": {
     "test": "node ./__tests__/react-project.test.js",
     "start": "webpack serve --mode development --open --config ../../config/webpack.config.js",
-    "build": "webpack --mode production --config ../../config/webpack.config.js",
+    "build": "webpack --mode production --config ../../config/webpack.config.js"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

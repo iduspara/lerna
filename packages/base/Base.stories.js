@@ -1,4 +1,4 @@
-import Header from './src/base';
+import Header from './src/header';
 
 export default {
   title: 'Base/Header',
